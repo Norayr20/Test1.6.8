@@ -4,8 +4,7 @@ public class ParseAndPrintNumber {
         parseAndPrintNumber(str);
     }
     public static void parseAndPrintNumber(String str) {
-        int number = Integer.parseInt(str);
-        int result = number / 2;
+        int result = Integer.parseInt(str) / 2;
         System.out.println(result);
     }
 }
